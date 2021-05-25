@@ -10,6 +10,11 @@ namespace Laba5
             int x = 10;
             int y = 20;
             Console.WriteLine("x + y = {0}", Calc.Sum(x, y));
-        }
+            
+            string s = "strichka nn";
+            Console.WriteLine($"розмір в байтах {s.Length * 2}");
+
+        }        
+            
     }
 }
